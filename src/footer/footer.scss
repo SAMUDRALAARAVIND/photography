@@ -1,0 +1,30 @@
+@import "../styles/fonts/fonts.scss";
+.footer-container {
+  .step1 {
+    margin: 20px;
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .link {
+        text-decoration: none;
+        font-family: cursive;
+      }
+    }
+  }
+  .images-container {
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    img {
+      //   min-width: 200px;
+      //   object-fit: cover;
+    }
+  }
+  .bottom-text {
+    font-size: 0.6rem;
+    padding: 10px;
+    text-align: center;
+    background-color: #cfdfdd;
+  }
+}
